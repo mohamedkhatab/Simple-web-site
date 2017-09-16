@@ -1,0 +1,316 @@
+
+
+    .conatiner {
+margin: auto;
+width: 1200px;
+}
+
+.upper {
+text-transform: uppercase;
+}
+
+.hidden{
+display: none;
+}
+
+.main-color{
+color:#e8af0c ;
+}
+.text-center{
+text-align: center;
+}
+
+.header{
+background: url(../images/blogging_2.jpg);
+-webkit-background-size:cover;
+background-size:cover;
+    }
+
+
+.overlay {
+background-color: #353535;
+opacity: .75;
+width: 100%;
+height: 100%;
+
+}
+.header .navbar{
+overflow: hidden;
+padding: 20px 50px;
+font-family: sans-serif;
+}
+
+
+.header .navbar .links{
+color: white;
+float: right;
+}
+
+.container .intro{
+color: white;
+font-family: sans-serif;
+margin-top: 180px;
+}
+
+.container .buttons button{
+padding: 10px;
+margin: 5px;
+background: none;
+border: 1px solid white;
+-webkit-transition: all  .5s  ease-in-out;
+transition: all  .5s  ease-in-out;
+color: #e8af0c;
+
+}
+
+.container .buttons button:hover{
+background-color: #eaf731;
+color: black;
+cursor: pointer;
+border: 1px solid #eaf731;
+}
+
+.arrow{
+text-align: center;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+color: white;
+}
+
+.arrow i{
+border: 1px solid white;
+padding: 10px;
+margin: 10px;
+}
+
+.arrow i:hover{
+background-color: #eaf731;
+color: black;
+cursor: pointer;
+border: 1px solid #eaf731;
+}
+
+
+.features{
+padding: 40px 0;
+overflow: hidden;
+}
+
+.box{
+width: 22%;
+float: left;
+text-align-last: center;
+margin-left: 3%;
+}
+
+.box p{
+font-family: monospace;
+font-weight: bold;
+margin: 5px;
+}
+.box i{
+background-color: #e8af0c;
+color: black;
+cursor: pointer;
+border: 1px solid #e8af0c;
+padding: 25px;
+margin: 10px;
+border-radius: 50%;
+}
+.box i:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+.subscribe{
+    background: url("../images/Capture1.PNG");
+-webkit-background-size:cover;
+background-size:cover;
+height: 200px;
+overflow: hidden;
+}
+
+    .subscribecont{
+width: 400px;
+margin: auto;
+padding: 100px 0px;
+}
+
+.subscribe .inputtt{
+padding: 10px 40px;
+}
+.subscribe .subbtn{
+background: none;
+border: 1px solid white;
+-webkit-transition: all  .5s  ease-in-out;
+transition: all  .5s  ease-in-out;
+color: #e8af0c;
+padding: 10px;
+}
+
+
+
+.subscribe .subbtn:hover{
+background-color: #eaf731;
+color: black;
+cursor: pointer;
+border: 1px solid #eaf731;
+}
+
+.subscribe .subbtn:focus{outline: none;}
+
+.ourwork{
+height: 700px;
+font-family: cursive;
+}
+.itembox{
+overflow: hidden;
+}
+.itembox .item{
+float: left;
+width: 30%;
+height: 40%;
+overflow: hidden;
+margin-left: 2%;
+    margin-bottom: 1%;
+    border: 1px solid white;
+border-radius: 5px;
+position: relative;
+
+}
+.ourwork  .itembox .item:hover .overlayitem{
+display: block;
+}
+
+
+.itembox .item img{
+width: 100%;
+height: 100%;
+}
+.overlayitem{
+background-color: #e8af0c;
+opacity: .7;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+color: black;
+display: none;
+
+}
+
+.overlayitem .btnour{
+padding: 10px;
+margin: 5px;
+background: none;
+border: 1px solid black;
+-webkit-transition: all  .5s  ease-in-out;
+transition: all  .5s  ease-in-out;
+color: black;
+}
+
+.overlayitem .btnour:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+border: 1px solid white;
+}
+.testim{
+text-align: center;
+position: relative;
+overflow: hidden;
+    height: 300px;
+    background: url("../images/Capture1.PNG");
+font-family: cursive;
+}
+
+.fa-chevron-right{
+right: 20;
+top:30%;
+position: absolute;
+color: azure;
+}
+
+.fa-chevron-left{
+left: 20;
+top:30%;
+position: absolute;
+color: azure;
+
+}
+
+.container .client{
+border: 1px solid white;
+color: #e8af0c;
+display: inline-block;
+width: 100%;
+height: 100%;
+}
+
+.client img{
+width: 100px;
+height: 100px;
+}
+
+.ourteam{
+padding: 40px 0;
+overflow: hidden;
+}
+
+.teambox{
+width: 200px;
+float: left;
+text-align-last: center;
+margin-left: 4%;
+}
+/*.teambox:hover{
+transform: scale(1.5);
+}
+*/
+.teambox p{
+font-family: monospace;
+font-weight: bold;
+}
+.teambox img{
+cursor: pointer;
+border: 1px solid #e8af0c;
+width: 200px;
+height: 200px;
+filter: gray;
+filter: grayscale(1)
+}
+.teambox img:hover{
+filter: none;
+filter: grayscale(0);
+
+}
+
+.footer{
+    background: url("../images/Capture1.PNG");
+-webkit-background-size:cover;
+background-size:cover;
+overflow: hidden;
+height: 200px;
+}
+
+.footer .overlay{
+height: 100%;
+margin: auto;
+}
+
+.footer .container{
+width: 400px;
+margin: auto;
+padding: 100px 0px;
+color: white;
+}
+
+.footer p{
+margin: 10px;
+color: white;
+font-family: cursive;
+}
